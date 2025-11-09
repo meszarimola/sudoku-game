@@ -38,8 +38,14 @@ All validation logic runs on the **server side** to ensure consistent behavior a
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Run locally 
 
-### 1️⃣ Build the Docker image
+### Open the terminal and run
 ```bash
-docker build -t sudoku-server .
+python server.py
+```
+The application will run locally on localhost:8080, which will be accessible from any browser (locally only).
+
+## 🚀 AWS deployment
+You can also view the deployed code on [http://51.20.41.205/](http://51.20.41.205/).
+
