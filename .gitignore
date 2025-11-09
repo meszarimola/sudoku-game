@@ -1,0 +1,77 @@
+# ==========================================
+# Python / PyCharm Sudoku Project .gitignore
+# ==========================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# --- Virtual env ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- PyCharm / JetBrains ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- OS specific junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / Temp ---
+*.log
+*.tmp
+*.swp
+*.swo
+
+# --- Docker ---
+*.pid
+*.tar
+*.bak
+.dockerignore
+# docker build cache dirs
+.cache/
+**/cache/
+
+# --- Node / frontend ---
+public/node_modules/
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# --- Coverage / test ---
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+*.cover
+coverage.xml
+
+# --- Editor backups ---
+*~
+*.orig
+*.bak
+
+# --- Project specific ---
+# Ignore puzzle test files or generated boards
+puzzles/tmp_*.json
+puzzles/test_*.json
+
+# --- OS metadata ---
+ehthumbs.db
+Icon?
