@@ -98,3 +98,46 @@ h1 {
   font-weight: 600;
   z-index: 9999;
 }
+
+@media (max-width: 768px) {
+  :root {
+    --cell: 38px;
+    --gutter: 8px;
+  }
+  body {
+    margin: 16px;
+  }
+  #grid.board {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --cell: 34px;
+    --gutter: 6px;
+  }
+  body {
+    margin: 12px;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  #grid.board {
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .cell {
+    font-size: 16px; 
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --cell: 30px;
+    --gutter: 6px;
+  }
+  body {
+    margin: 10px;
+  }
+}
